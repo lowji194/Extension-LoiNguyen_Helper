@@ -1,7 +1,7 @@
-# Extension-LoiNguyen_Helper
+# Extension LoiNguyen_Helper
 
 ## Overview
-Extension-LoiNguyen_Helper is a versatile tool designed to assist with managing proxy settings and user agents directly within the `background.js` file or during runtime using JavaScript commands. This tool supports automation using Selenium with both C# and Python.
+Extension LoiNguyen_Helper is a versatile tool designed to assist with managing proxy settings and user agents directly within the `background.js` file or during runtime using JavaScript commands. This tool supports automation using Selenium with both C# and Python.
 
 ## Features
 - Change proxy settings directly within `background.js`.
