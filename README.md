@@ -3,11 +3,11 @@
 # Extension LoiNguyen_Helper
 
 ## Tổng Quan
-Extension LoiNguyen_Helper là một công cụ đa năng được thiết kế để hỗ trợ quản lý cài đặt proxy và user agent trực tiếp trong tệp `background.js` hoặc trong thời gian thực bằng cách sử dụng các lệnh JavaScript. Công cụ này hỗ trợ tự động hóa bằng Selenium với cả C# và Python.
+Extension LoiNguyen_Helper là một công cụ đa năng được thiết kế để hỗ trợ quản lý cài đặt proxy và user agent trực tiếp trong tệp `background.js` hoặc trong trong quá trình sử dụng bằng cách sử dụng các lệnh JavaScript. Công cụ này hỗ trợ tự động hóa bằng Selenium với cả C# và Python.
 
 ## Tính Năng
 - Thay đổi cài đặt proxy trực tiếp trong `background.js`.
-- Thay đổi cài đặt proxy trong thời gian thực.
+- Thay đổi cài đặt proxy trong trong quá trình sử dụng.
 - Bật hoặc tắt proxy bằng các lệnh JavaScript.
 - Cập nhật User-Agent và cài đặt Proxy động.
 
@@ -16,7 +16,7 @@ Extension LoiNguyen_Helper là một công cụ đa năng được thiết kế 
 ### Thay Đổi Cài Đặt Proxy trong `background.js`
 Bạn có thể thay đổi trực tiếp cài đặt proxy trong tệp `background.js`.
 
-### Thay Đổi Cài Đặt Proxy Trong Thời Gian Thực
+### Thay Đổi Cài Đặt Proxy Trong trong quá trình sử dụng
 Bạn có thể điều chỉnh cài đặt proxy khi tiện ích mở rộng đang chạy bằng các lệnh JavaScript sau:
 
 #### Bật/Tắt Proxy
