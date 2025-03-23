@@ -102,6 +102,3 @@ driver.execute_script("localStorage.setItem('SetProxy', 'NEW_PROXY');")
 # Close the browser
 driver.quit()
 ```
-
-## Contributions
-We welcome contributions! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
