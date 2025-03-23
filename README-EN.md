@@ -1,3 +1,5 @@
+[![🇻🇳 Tiếng Việt](https://img.shields.io/badge/Ngôn_ngữ-Tiếng_Việt-red?style=for-the-badge&logo=Google%20Translate)](README.md)
+---
 # Extension LoiNguyen_Helper
 
 ## Overview
@@ -41,7 +43,7 @@ localStorage.setItem('SetProxy', 'NEW_PROXY');
 ```
 
 ## Automation with Selenium
-
+---
 ### Selenium C#
 Use the following C# snippet to interact with the extension:
 ```csharp
@@ -75,7 +77,7 @@ class Program
     }
 }
 ```
-
+---
 ### Selenium Python
 Use the following Python snippet to interact with the extension:
 ```python
@@ -102,3 +104,13 @@ driver.execute_script("localStorage.setItem('SetProxy', 'NEW_PROXY');")
 # Close the browser
 driver.quit()
 ```
+---
+
+## 📌 **Contact**
+
+If you encounter any problems or want to contribute to the project, you can contact me via:
+
+- **Phone**: 0963 159 294
+- **Facebook**: [Lowji194](https://www.facebook.com/Lowji194/)
+
+---
