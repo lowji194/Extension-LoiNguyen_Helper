@@ -38,6 +38,11 @@ localStorage.setItem('StopProxy', 'false');
 localStorage.setItem('UserAgent', 'NEW_USERAGENT');
 ```
 
+Để Xóa UserAgent, sử dụng:
+```js
+localStorage.setItem('UserAgent', '');
+```
+
 #### Thay Đổi Proxy
 Để thay đổi Proxy, sử dụng:
 ```js
@@ -71,6 +76,9 @@ class Program
         // Thay đổi UserAgent
         ((IJavaScriptExecutor)driver).ExecuteScript("localStorage.setItem('UserAgent', 'NEW_USERAGENT');");
 
+        // UserAgent Mặc định
+        ((IJavaScriptExecutor)driver).ExecuteScript("localStorage.setItem('UserAgent', '');");
+
         // Thay đổi Proxy
         ((IJavaScriptExecutor)driver).ExecuteScript("localStorage.setItem('SetProxy', 'NEW_PROXY');");
 
@@ -99,6 +107,9 @@ driver.execute_script("localStorage.setItem('StopProxy', 'false');")
 
 # Thay đổi UserAgent
 driver.execute_script("localStorage.setItem('UserAgent', 'NEW_USERAGENT');")
+
+# UserAgent Mặc định
+driver.execute_script("localStorage.setItem('UserAgent', '');")
 
 # Thay đổi Proxy
 driver.execute_script("localStorage.setItem('SetProxy', 'NEW_PROXY');")
