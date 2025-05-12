@@ -2,7 +2,6 @@
 ---
 # Extension LoiNguyen_Helper
 
-### `manifest_version 3 không dùng đc user:pass, nếu dụng có user:pass thì dùng bản V2`
 
 ## Tổng Quan
 Extension LoiNguyen_Helper là một công cụ đa năng được thiết kế để hỗ trợ quản lý cài đặt proxy và user agent trực tiếp trong tệp `background.js` hoặc trong trong quá trình sử dụng bằng cách sử dụng các lệnh JavaScript. Công cụ này hỗ trợ tự động hóa bằng Selenium với cả C# và Python.
