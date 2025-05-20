@@ -11,6 +11,7 @@ Extension LoiNguyen_Helper là một công cụ đa năng được thiết kế 
 - Thay đổi cài đặt proxy trong trong quá trình sử dụng.
 - Bật hoặc tắt proxy bằng các lệnh JavaScript.
 - Cập nhật User-Agent và cài đặt Proxy động.
+- Vô hiệu hóa Web RTC
 
 ## Sử Dụng
 
